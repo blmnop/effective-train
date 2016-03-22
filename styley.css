@@ -1,0 +1,32 @@
+body{
+}
+h1{
+	
+}
+.form{
+	display:;
+	margin-top: 50px;
+	margin-left: 50px;
+	background-color:white;
+	margin-right: 50px;
+	padding: 20px;
+}
+
+
+body{
+	
+	 margin: 0px auto; border: 1px solid red;
+	 background: rgb(199,237,250) url('images/background.jpg') no-repeat fixed center center;
+
+	
+}
+
+
+.container-fluid {
+	border-radius:1px solid black;
+	display:;
+	background-color:lightblue;
+	margin: 50px;
+	padding: 20px;
+	font-weight: bold;
+}

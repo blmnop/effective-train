@@ -1,0 +1,192 @@
+*{
+background-size: contain;
+}
+body{
+background: rgb(199,237,250) url(images/background.jpg) no-repeat fixed center center;
+position: absolute;
+margin: 0px;
+z-index:2;
+padding: 0;
+font:normal 0.9em Arial; margin:0; padding:0; padding-bottom:0px;
+}
+
+#myCarousel{
+margin-bottom:50px;
+}
+
+.container-fluid{
+padding:0;
+max-width: 2366px;	
+background-color:rgba(0,0,0,0.2);
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.container-fluid h2{ 
+margin:0px 0px;padding:5px 0px;
+margin: 5px 0px;
+background-color:black;
+color: white;
+opacity: 0.8;
+text-align:center;
+}
+
+/*FORM DESIGN*/
+.form{
+margin: 5px 0px 20px 0px;
+padding: 8px 0px;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+background-color: white;
+opacity
+}
+.search-option{
+border: 1px solid red;
+background-size: contain;
+display:inline-block;
+margin-left: 0px;
+margin-top: 10px;
+}
+.search-option small{
+font-weight: bold;
+font-size: 90%;
+}
+.form h3{
+color: blue;
+margin-left: 10px;
+}
+input{
+width: 120px;
+text-align:center;
+margin: 0px 15px;
+}
+input [type =   datalist ]{
+margin: 5px 0px;
+border: 1px solid blue;
+}
+button{
+text-align: right;
+padding: 8px 10px;
+border-radius: 10px;
+background-color: lightblue;
+background-position: right;
+}
+
+
+/*DATA FORM DESIGN*/
+.container{
+border: 1px solid red ;
+width: 260px;
+float: left;
+display:inline-block;
+margin: 8px 11.5px;
+padding:0px;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+background-color: white;
+border-radius:;
+background-size:contain;
+}
+.container img:hover{
+opacity: 0.8;
+
+}
+.container img{
+width: 100%;
+height: 210px;
+max-height:auto;
+margin:0; 
+border-radius:;
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
+.container h3{
+font-size:12pt;
+margin: 0;
+padding: 5px 0px;
+text-align:center;
+background-color: rgb(187,227,33);
+}
+.container small{
+font-weight:bold;
+color: black;
+font-size:100%;
+}
+.container a{
+text-decoration:none;
+color: white;}
+
+.footer{
+background-size:contain;
+background-color: rgb(187,227,33);
+padding: 10px 0px;
+margin-top: 0px;
+text-align:center;
+clear: both;
+color: black;
+}
+.footer h6{
+font-weight:bold;
+font-size: 90%;
+}
+
+
+
+
+/**RESALE PROPERTIES TYPE SELECT CODE***/
+
+
+.type{
+
+text-align: center;
+margin: 10px 0px;
+padding: 8px;
+background-size:contain;
+display: block;
+}
+.type a{
+border: 1px solid red;
+padding: 4px;
+margin-right: 10px;
+margin-bottom: 5px;
+background-color: darkgreen;
+color: white;
+border-radius: ;
+text-decoration:none;
+background-size:contain;
+}
+.type a:hover{
+background-color: black;
+color: white
+}
+
+
+
+@media screen and (max-width:480px)and (min-width:0px){
+.container{
+width: 200px;
+margin: 10px 0px;
+}
+}
+@media screen and (max-width:767px){
+.container{
+width: 234px;
+margin:;
+}
+}
+
+@media screen and (max-width:991px){
+.container{
+width: 222px;
+margin: 10px 8px;
+}
+
+}
+/*
+@media screen and (min-width:1152px){
+.container{
+width: 250px;
+margin: 10px ;
+}
+
+}*/
+@media screen and (min-width:1366px){
+.container{
+width: 256px;
+margin: 10px 8px;
+}}
